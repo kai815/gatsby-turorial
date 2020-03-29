@@ -1,3 +1,3 @@
 import React from "react"
-
-export default () => <h1>This is a header.</h1>
+// propsで値を受け取る
+export default props => <h1>{props.headerText}</h1>
